@@ -1,0 +1,39 @@
+
+     @media screen and (max-width:800px) {
+        .footer{
+            height:20rem;
+        }
+        #services{
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+       
+        }
+        #services .box{
+            height: 10%;
+            width:70%;
+        }
+        #services h2{
+         font-size: 1.35rem;
+        }
+        #navbar{
+            flex-direction: column;
+           
+        }
+        #navbar ul li{
+            font-size: 0.80rem;
+        };
+        .fbox {
+             flex-direction: column;
+            flex-wrap: wrap;
+        }
+        #home{
+             padding: 1.5rem;
+        }
+        #home h1{
+            font-size: 2rem;
+        }
+         
+     }
